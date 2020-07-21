@@ -15,7 +15,23 @@
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
-		<h1 class="text-center">Welcome to Pioneer Bank</h1>
+		<div id="login-area">
+			<h1 class="text-center">Welcome to Pioneer Bank</h1>
+
+			<div class="submit-area">
+				<h4>Login</h4>
+				<input type="text" class="form-control" placeholder="Email" />
+				<br />
+				<input type="password" class="form-control" placeholder="Password" />
+				<br />
+				<button id="login" class="btn btn-success">Enter</button>
+			</div>
+		</div>
+
+		<div id="transaction-area">
+			<h1>Transaction Area</h1>
+		</div>
+
 		<!-- JS, Popper.js, and jQuery -->
 		<script
 			src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -32,5 +48,7 @@
 			integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
 			crossorigin="anonymous"
 		></script>
+
+		<script src="script.js"></script>
 	</body>
 </html>
